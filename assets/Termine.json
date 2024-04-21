@@ -1,0 +1,1289 @@
+[
+  {
+    "F0": "04.09.2023",
+    "F1": "Trio",
+    "F2": "H1",
+    "Datum": "Mo, 04.09.2023",
+    "Termin": "1. Rd. Trio H1B",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "11.09.2023",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 11.09.2023",
+    "Termin": "1. Rd. Team H1",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "17.09.2023",
+    "F1": "Wiener Cup ",
+    "F2": "H1",
+    "Datum": "So, 17.09.2023",
+    "Termin": "Finale Wiener Cup  H1",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "18.09.2023",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 18.09.2023",
+    "Termin": "2. Rd. Team H1",
+    "Ort": "Cumberland",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "20.09.2023",
+    "F1": "Nenntag",
+    "F2": "",
+    "Datum": "Mi, 20.09.2023",
+    "Termin": "Nenntag STM Doppel",
+    "Ort": "",
+    "Zeit": ""
+  },
+  {
+    "F0": "24.09.2023",
+    "F1": "Trio",
+    "F2": "WLD",
+    "Datum": "So, 24.09.2023",
+    "Termin": "1. Rd. Trio WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "24.09.2023",
+    "F1": "Trio",
+    "F2": "WLH",
+    "Datum": "So, 24.09.2023",
+    "Termin": "1. Rd. Trio WLH",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "25.09.2023",
+    "F1": "Trio",
+    "F2": "H1",
+    "Datum": "Mo, 25.09.2023",
+    "Termin": "2. Rd. Trio H1B",
+    "Ort": "Cumberland",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "30.09.2023",
+    "F1": "Ö-CUP",
+    "F2": "",
+    "Datum": "Sa, 30.09.2023",
+    "Termin": "VorRd. Ö-CUP ",
+    "Ort": "Cumberland",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "01.10.2023",
+    "F1": "Team",
+    "F2": "WLD",
+    "Datum": "So, 01.10.2023",
+    "Termin": "1. Rd. Team WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "01.10.2023",
+    "F1": "Team",
+    "F2": "WLH",
+    "Datum": "So, 01.10.2023",
+    "Termin": "1. Rd. Team WLH",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "08.10.2023",
+    "F1": "Trio",
+    "F2": "WLD",
+    "Datum": "So, 08.10.2023",
+    "Termin": "2. Rd. Trio WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "08.10.2023",
+    "F1": "Trio",
+    "F2": "WLH",
+    "Datum": "So, 08.10.2023",
+    "Termin": "2. Rd. Trio WLH",
+    "Ort": "Cumberland",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "09.10.2023",
+    "F1": "STM Doppel",
+    "F2": "",
+    "Datum": "Mo, 09.10.2023",
+    "Termin": "1. Rd. STM Doppel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "11.10.2023",
+    "F1": "STM Doppel",
+    "F2": "",
+    "Datum": "Mi, 11.10.2023",
+    "Termin": "1. Rd. STM Doppel ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "14.10.2023",
+    "F1": "Ö-CUP",
+    "F2": "",
+    "Datum": "Sa, 14.10.2023",
+    "Termin": "Achtelfinale Ö-CUP Herren",
+    "Ort": "Plus",
+    "Zeit": "09:30"
+  },
+  {
+    "F0": "14.10.2023",
+    "F1": "Ö-CUP",
+    "F2": "",
+    "Datum": "Sa, 14.10.2023",
+    "Termin": "Viertelfinale Ö-CUP Herren",
+    "Ort": "Plus",
+    "Zeit": "Anschl."
+  },
+  {
+    "F0": "14.10.2023",
+    "F1": "Ö-CUP",
+    "F2": "",
+    "Datum": "Sa, 14.10.2023",
+    "Termin": "Viertelfinale Ö-CUP Damen",
+    "Ort": "Plus",
+    "Zeit": "09:30"
+  },
+  {
+    "F0": "15.10.2023",
+    "F1": "Ö-CUP",
+    "F2": "",
+    "Datum": "So, 15.10.2023",
+    "Termin": "Semifinale Ö-CUP Herren",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "15.10.2023",
+    "F1": "Ö-CUP",
+    "F2": "",
+    "Datum": "So, 15.10.2023",
+    "Termin": "Finale Ö-CUP Herren",
+    "Ort": "Plus",
+    "Zeit": "Anschl."
+  },
+  {
+    "F0": "15.10.2023",
+    "F1": "Ö-CUP",
+    "F2": "",
+    "Datum": "So, 15.10.2023",
+    "Termin": "Semifinale Ö-CUP Damen",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "15.10.2023",
+    "F1": "Ö-CUP",
+    "F2": "",
+    "Datum": "So, 15.10.2023",
+    "Termin": "Finale Ö-CUP Damen",
+    "Ort": "Plus",
+    "Zeit": "Anschl."
+  },
+  {
+    "F0": "16.10.2023",
+    "F1": "Trio",
+    "F2": "H1",
+    "Datum": "Mo, 16.10.2023",
+    "Termin": "3. Rd. Trio H1B",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "18.10.2023",
+    "F1": "Nenntag",
+    "F2": "",
+    "Datum": "Mi, 18.10.2023",
+    "Termin": "Nenntag ÖM Senioren Einzel + Doppel",
+    "Ort": "",
+    "Zeit": ""
+  },
+  {
+    "F0": "22.10.2023",
+    "F1": "STM Doppel",
+    "F2": "",
+    "Datum": "So, 22.10.2023",
+    "Termin": "2. Rd. STM Doppel ",
+    "Ort": "Cumberland",
+    "Zeit": "10:00 + 13:00"
+  },
+  {
+    "F0": "22.10.2023",
+    "F1": "STM Doppel",
+    "F2": "",
+    "Datum": "So, 22.10.2023",
+    "Termin": "2. Rd. STM Doppel ",
+    "Ort": "Plus",
+    "Zeit": "10:00 + 13:30"
+  },
+  {
+    "F0": "23.10.2023",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 23.10.2023",
+    "Termin": "3. Rd. Team H1",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "30.10.2023",
+    "F1": "ÖM Senioren Einzel",
+    "F2": "",
+    "Datum": "Mo, 30.10.2023",
+    "Termin": "1. Rd. ÖM Senioren Einzel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "30.10.2023",
+    "F1": "ÖM Senioren Einzel",
+    "F2": "",
+    "Datum": "Mo, 30.10.2023",
+    "Termin": "1. Rd. ÖM Senioren Einzel ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "30.10.2023",
+    "F1": "ÖM Senioren Doppel",
+    "F2": "",
+    "Datum": "Mo, 30.10.2023",
+    "Termin": "1. Rd. ÖM Senioren Doppel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "30.10.2023",
+    "F1": "ÖM Senioren Doppel",
+    "F2": "",
+    "Datum": "Mo, 30.10.2023",
+    "Termin": "1. Rd. ÖM Senioren Doppel ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "05.11.2023",
+    "F1": "Team",
+    "F2": "WLD",
+    "Datum": "So, 05.11.2023",
+    "Termin": "2. Rd. Team WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "05.11.2023",
+    "F1": "Team",
+    "F2": "WLH",
+    "Datum": "So, 05.11.2023",
+    "Termin": "2. Rd. Team WLH",
+    "Ort": "Cumberland",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "06.11.2023",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 06.11.2023",
+    "Termin": "4. Rd. Team H1",
+    "Ort": "Cumberland",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "12.11.2023",
+    "F1": "Trio",
+    "F2": "WLD",
+    "Datum": "So, 12.11.2023",
+    "Termin": "3. Rd. Trio WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "12.11.2023",
+    "F1": "Trio",
+    "F2": "WLH",
+    "Datum": "So, 12.11.2023",
+    "Termin": "3. Rd. Trio WLH",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "13.11.2023",
+    "F1": "ÖM Senioren Einzel",
+    "F2": "",
+    "Datum": "Mo, 13.11.2023",
+    "Termin": "2. Rd. ÖM Senioren Einzel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "13.11.2023",
+    "F1": "ÖM Senioren Doppel",
+    "F2": "",
+    "Datum": "Mo, 13.11.2023",
+    "Termin": "2. Rd. ÖM Senioren Doppel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "15.11.2023",
+    "F1": "ÖM Senioren Einzel",
+    "F2": "",
+    "Datum": "Mi, 15.11.2023",
+    "Termin": "2. Rd. ÖM Senioren Einzel ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "15.11.2023",
+    "F1": "ÖM Senioren Doppel",
+    "F2": "",
+    "Datum": "Mi, 15.11.2023",
+    "Termin": "2. Rd. ÖM Senioren Doppel ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "18.11.2023",
+    "F1": "STM Doppel",
+    "F2": "",
+    "Datum": "Sa, 18.11.2023",
+    "Termin": "Semifinale STM Doppel Herren",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "18.11.2023",
+    "F1": "STM Doppel",
+    "F2": "",
+    "Datum": "Sa, 18.11.2023",
+    "Termin": "Semifinale STM Doppel Damen",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "19.11.2023",
+    "F1": "STM Doppel",
+    "F2": "",
+    "Datum": "So, 19.11.2023",
+    "Termin": "Finale STM Doppel Herren",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "19.11.2023",
+    "F1": "STM Doppel",
+    "F2": "",
+    "Datum": "So, 19.11.2023",
+    "Termin": "Finale STM Doppel Damen",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "20.11.2023",
+    "F1": "Trio",
+    "F2": "H1",
+    "Datum": "Mo, 20.11.2023",
+    "Termin": "4. Rd. Trio H1B",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "26.11.2023",
+    "F1": "Team",
+    "F2": "WLH",
+    "Datum": "So, 26.11.2023",
+    "Termin": "3. Rd. Team WLH",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "29.11.2023",
+    "F1": "Nenntag",
+    "F2": "",
+    "Datum": "Mi, 29.11.2023",
+    "Termin": "Nenntag Ranglisten Einzel + Doppel",
+    "Ort": "",
+    "Zeit": ""
+  },
+  {
+    "F0": "02.12.2023",
+    "F1": "ÖM Senioren Doppel",
+    "F2": "",
+    "Datum": "Sa, 02.12.2023",
+    "Termin": "Semifinale ÖM Senioren Doppel Herren A+B+C",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "02.12.2023",
+    "F1": "ÖM Senioren Doppel",
+    "F2": "",
+    "Datum": "Sa, 02.12.2023",
+    "Termin": "Semifinale ÖM Senioren Doppel Damen 50+/60+ ",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "03.12.2023",
+    "F1": "ÖM Senioren Doppel",
+    "F2": "",
+    "Datum": "So, 03.12.2023",
+    "Termin": "Finale ÖM Senioren Doppel Herren A+B+C",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "03.12.2023",
+    "F1": "ÖM Senioren Doppel",
+    "F2": "",
+    "Datum": "So, 03.12.2023",
+    "Termin": "Finale ÖM Senioren Doppel Damen 50+/60+ ",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "04.12.2023",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 04.12.2023",
+    "Termin": "5. Rd. Team H1",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "11.12.2023",
+    "F1": "Trio",
+    "F2": "H1",
+    "Datum": "Mo, 11.12.2023",
+    "Termin": "5. Rd. Trio H1B",
+    "Ort": "Cumberland",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "17.12.2023",
+    "F1": "Trio",
+    "F2": "WLD",
+    "Datum": "So, 17.12.2023",
+    "Termin": "4. Rd. Trio WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "17.12.2023",
+    "F1": "Trio",
+    "F2": "WLH",
+    "Datum": "So, 17.12.2023",
+    "Termin": "4. Rd. Trio WLH",
+    "Ort": "Cumberland",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "18.12.2023",
+    "F1": "RL Einzel",
+    "F2": "",
+    "Datum": "Mo, 18.12.2023",
+    "Termin": "1. Rd. RL Einzel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "18.12.2023",
+    "F1": "RL Doppel",
+    "F2": "",
+    "Datum": "Mo, 18.12.2023",
+    "Termin": "1. Rd. RL Doppel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "20.12.2023",
+    "F1": "RL Einzel",
+    "F2": "",
+    "Datum": "Mi, 20.12.2023",
+    "Termin": "1. Rd. RL Einzel ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "20.12.2023",
+    "F1": "RL Doppel",
+    "F2": "",
+    "Datum": "Mi, 20.12.2023",
+    "Termin": "1. Rd. RL Doppel ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "08.01.2024",
+    "F1": "RL Einzel",
+    "F2": "",
+    "Datum": "Mo, 08.01.2024",
+    "Termin": "2. Rd. RL Einzel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "08.01.2024",
+    "F1": "RL Doppel",
+    "F2": "",
+    "Datum": "Mo, 08.01.2024",
+    "Termin": "2. Rd. RL Doppel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "10.01.2024",
+    "F1": "RL Einzel",
+    "F2": "",
+    "Datum": "Mi, 10.01.2024",
+    "Termin": "2. Rd. RL Einzel ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "10.01.2024",
+    "F1": "RL Doppel",
+    "F2": "",
+    "Datum": "Mi, 10.01.2024",
+    "Termin": "2. Rd. RL Doppel ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "14.01.2024",
+    "F1": "Team",
+    "F2": "WLD",
+    "Datum": "So, 14.01.2024",
+    "Termin": "3. Rd. Team WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "14.01.2024",
+    "F1": "Team",
+    "F2": "WLH",
+    "Datum": "So, 14.01.2024",
+    "Termin": "4. Rd. Team WLH",
+    "Ort": "Cumberland",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "17.01.2024",
+    "F1": "Nenntag",
+    "F2": "",
+    "Datum": "Mi, 17.01.2024",
+    "Termin": "Nenntag STM Einzel",
+    "Ort": "",
+    "Zeit": ""
+  },
+  {
+    "F0": "21.01.2024",
+    "F1": "WM Doppel",
+    "F2": "",
+    "Datum": "So, 21.01.2024",
+    "Termin": "Finale WM Doppel Damen",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "21.01.2024",
+    "F1": "WM Doppel",
+    "F2": "",
+    "Datum": "So, 21.01.2024",
+    "Termin": "Finale WM Doppel Herren",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "22.01.2024",
+    "F1": "Trio",
+    "F2": "H1",
+    "Datum": "Mo, 22.01.2024",
+    "Termin": "6. Rd. Trio H1B",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "27.01.2024",
+    "F1": "Trio",
+    "F2": "WLD",
+    "Datum": "Sa, 27.01.2024",
+    "Termin": "5. Rd. Trio WLD",
+    "Ort": "Plus",
+    "Zeit": "9:00"
+  },
+  {
+    "F0": "27.01.2024",
+    "F1": "Trio",
+    "F2": "WLH",
+    "Datum": "Sa, 27.01.2024",
+    "Termin": "5. Rd. Trio WLH",
+    "Ort": "Plus",
+    "Zeit": "9:00"
+  },
+  {
+    "F0": "28.01.2024",
+    "F1": "STM Einzel",
+    "F2": "",
+    "Datum": "So, 28.01.2024",
+    "Termin": "1. Rd. STM Einzel ",
+    "Ort": "Plus",
+    "Zeit": "10:00 + 14:30"
+  },
+  {
+    "F0": "28.01.2024",
+    "F1": "STM Einzel",
+    "F2": "",
+    "Datum": "So, 28.01.2024",
+    "Termin": "1. Rd. STM Einzel ",
+    "Ort": "Cumberland",
+    "Zeit": "10:00 + 14:30"
+  },
+  {
+    "F0": "29.01.2024",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 29.01.2024",
+    "Termin": "6. Rd. Team H1",
+    "Ort": "Cumberland",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "04.02.2024",
+    "F1": "WM Einzel",
+    "F2": "",
+    "Datum": "So, 04.02.2024",
+    "Termin": "Finale WM Einzel Herren",
+    "Ort": "Cumberland",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "04.02.2024",
+    "F1": "WM Einzel",
+    "F2": "",
+    "Datum": "So, 04.02.2024",
+    "Termin": "Finale WM Einzel Damen",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "11.02.2024",
+    "F1": "STM Einzel",
+    "F2": "",
+    "Datum": "So, 11.02.2024",
+    "Termin": "2. Rd. STM Einzel ",
+    "Ort": "Plus",
+    "Zeit": "10:00 + 14:30"
+  },
+  {
+    "F0": "11.02.2024",
+    "F1": "STM Einzel",
+    "F2": "",
+    "Datum": "So, 11.02.2024",
+    "Termin": "2. Rd. STM Einzel ",
+    "Ort": "Cumberland",
+    "Zeit": "10:00 + 14:30"
+  },
+  {
+    "F0": "12.02.2024",
+    "F1": "Trio",
+    "F2": "H1",
+    "Datum": "Mo, 12.02.2024",
+    "Termin": "7. Rd. Trio H1B",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "14.02.2024",
+    "F1": "Nenntag",
+    "F2": "",
+    "Datum": "Mi, 14.02.2024",
+    "Termin": "Nenntag ÖM Mixed",
+    "Ort": "",
+    "Zeit": ""
+  },
+  {
+    "F0": "17.02.2024",
+    "F1": "ÖM Senioren Einzel",
+    "F2": "",
+    "Datum": "Sa, 17.02.2024",
+    "Termin": "Semifinale ÖM Senioren Einzel Herren A+B+C",
+    "Ort": "Wr. Neustadt",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "17.02.2024",
+    "F1": "ÖM Senioren Einzel",
+    "F2": "",
+    "Datum": "Sa, 17.02.2024",
+    "Termin": "Semifinale ÖM Senioren Einzel Damen 50+/60+ ",
+    "Ort": "Wr. Neustadt",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "18.02.2024",
+    "F1": "ÖM Senioren Einzel",
+    "F2": "",
+    "Datum": "So, 18.02.2024",
+    "Termin": "Finale ÖM Senioren Einzel Herren A+B+C",
+    "Ort": "Wr. Neustadt",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "18.02.2024",
+    "F1": "ÖM Senioren Einzel",
+    "F2": "",
+    "Datum": "So, 18.02.2024",
+    "Termin": "Finale ÖM Senioren Einzel Damen 50+/60+ ",
+    "Ort": "Wr. Neustadt",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "19.02.2024",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 19.02.2024",
+    "Termin": "7. Rd. Team H1",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "25.02.2024",
+    "F1": "Team",
+    "F2": "WLD",
+    "Datum": "So, 25.02.2024",
+    "Termin": "4. Rd. Team WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "25.02.2024",
+    "F1": "Team",
+    "F2": "WLH",
+    "Datum": "So, 25.02.2024",
+    "Termin": "5. Rd. Team WLH",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "26.02.2024",
+    "F1": "ÖM-Mixed",
+    "F2": "",
+    "Datum": "Mo, 26.02.2024",
+    "Termin": "1. Rd. ÖM-Mixed ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "28.02.2024",
+    "F1": "ÖM-Mixed",
+    "F2": "",
+    "Datum": "Mi, 28.02.2024",
+    "Termin": "1. Rd. ÖM-Mixed ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "03.03.2024",
+    "F1": "Trio",
+    "F2": "WLD",
+    "Datum": "So, 03.03.2024",
+    "Termin": "6. Rd. Trio WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "03.03.2024",
+    "F1": "Trio",
+    "F2": "WLH",
+    "Datum": "So, 03.03.2024",
+    "Termin": "6. Rd. Trio WLH",
+    "Ort": "Cumberland",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "04.03.2024",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 04.03.2024",
+    "Termin": "8. Rd. Team H1",
+    "Ort": "Cumberland",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "06.03.2024",
+    "F1": "Nenntag",
+    "F2": "",
+    "Datum": "Mi, 06.03.2024",
+    "Termin": "Nenntag WM Senioren Einzel + Doppel",
+    "Ort": "",
+    "Zeit": ""
+  },
+  {
+    "F0": "09.03.2024",
+    "F1": "STM Einzel",
+    "F2": "",
+    "Datum": "Sa, 09.03.2024",
+    "Termin": "Semifinale STM Einzel Herren",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "09.03.2024",
+    "F1": "STM Einzel",
+    "F2": "",
+    "Datum": "Sa, 09.03.2024",
+    "Termin": "Semifinale STM Einzel Damen",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "10.03.2024",
+    "F1": "STM Einzel",
+    "F2": "",
+    "Datum": "So, 10.03.2024",
+    "Termin": "Finale STM Einzel Herren",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "10.03.2024",
+    "F1": "STM Einzel",
+    "F2": "",
+    "Datum": "So, 10.03.2024",
+    "Termin": "Finale STM Einzel Damen",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "11.03.2024",
+    "F1": "ÖM-Mixed",
+    "F2": "",
+    "Datum": "Mo, 11.03.2024",
+    "Termin": "2. Rd. ÖM-Mixed ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "13.03.2024",
+    "F1": "ÖM-Mixed",
+    "F2": "",
+    "Datum": "Mi, 13.03.2024",
+    "Termin": "2. Rd. ÖM-Mixed ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "17.03.2024",
+    "F1": "Team",
+    "F2": "WLD",
+    "Datum": "So, 17.03.2024",
+    "Termin": "5. Rd. Team WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "17.03.2024",
+    "F1": "Team",
+    "F2": "WLH",
+    "Datum": "So, 17.03.2024",
+    "Termin": "6. Rd. Team WLH",
+    "Ort": "Cumberland",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "20.03.2024",
+    "F1": "Nenntag",
+    "F2": "",
+    "Datum": "Mi, 20.03.2024",
+    "Termin": "Nenntag WM Senioren Mixed",
+    "Ort": "",
+    "Zeit": ""
+  },
+  {
+    "F0": "24.03.2024",
+    "F1": "WM Senioren Einzel + Doppel",
+    "F2": "",
+    "Datum": "So, 24.03.2024",
+    "Termin": "1. Rd. WM Senioren Einzel + Doppel   ",
+    "Ort": "Plus",
+    "Zeit": "10:00 + 13:30"
+  },
+  {
+    "F0": "24.03.2024",
+    "F1": "WM Senioren Einzel + Doppel",
+    "F2": "",
+    "Datum": "So, 24.03.2024",
+    "Termin": "1. Rd. WM Senioren Einzel + Doppel ",
+    "Ort": "Cumberland",
+    "Zeit": "10:00 + 13:00"
+  },
+  {
+    "F0": "06.04.2024",
+    "F1": "ÖM Mixed",
+    "F2": "",
+    "Datum": "Sa, 06.04.2024",
+    "Termin": "Semifinale ÖM Mixed ",
+    "Ort": "TBA",
+    "Zeit": ""
+  },
+  {
+    "F0": "07.04.2024",
+    "F1": "ÖM Mixed",
+    "F2": "",
+    "Datum": "So, 07.04.2024",
+    "Termin": "Finale ÖM Mixed ",
+    "Ort": "TBA",
+    "Zeit": ""
+  },
+  {
+    "F0": "08.04.2024",
+    "F1": "WM Senioren Mixed",
+    "F2": "",
+    "Datum": "Mo, 08.04.2024",
+    "Termin": "1. Rd. WM Senioren Mixed ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "10.04.2024",
+    "F1": "WM Senioren Mixed",
+    "F2": "",
+    "Datum": "Mi, 10.04.2024",
+    "Termin": "1. Rd. WM Senioren Mixed ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "14.04.2024",
+    "F1": "Trio",
+    "F2": "WLD",
+    "Datum": "So, 14.04.2024",
+    "Termin": "7. Rd. Trio WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "14.04.2024",
+    "F1": "Trio",
+    "F2": "WLH",
+    "Datum": "So, 14.04.2024",
+    "Termin": "7. Rd. Trio WLH",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "15.04.2024",
+    "F1": "WM Senioren Einzel + Doppel",
+    "F2": "",
+    "Datum": "Mo, 15.04.2024",
+    "Termin": "2. Rd. WM Senioren Einzel + Doppel ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "17.04.2024",
+    "F1": "WM Senioren Einzel + Doppel",
+    "F2": "",
+    "Datum": "Mi, 17.04.2024",
+    "Termin": "2. Rd. WM Senioren Einzel + Doppel   ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "20.04.2024",
+    "F1": "WM Senioren Doppel",
+    "F2": "",
+    "Datum": "Sa, 20.04.2024",
+    "Termin": "Finale WM Senioren Doppel Herren A+B",
+    "Ort": "Cumberland",
+    "Zeit": "11:00 + 14:30"
+  },
+  {
+    "F0": "20.04.2024",
+    "F1": "WM Senioren Doppel",
+    "F2": "",
+    "Datum": "Sa, 20.04.2024",
+    "Termin": "Finale WM Senioren Doppel Herren C",
+    "Ort": "Plus",
+    "Zeit": "9:00"
+  },
+  {
+    "F0": "20.04.2024",
+    "F1": "WM Senioren Doppel",
+    "F2": "",
+    "Datum": "Sa, 20.04.2024",
+    "Termin": "Finale WM Senioren Doppel Damen A+B",
+    "Ort": "Plus",
+    "Zeit": "9:00"
+  },
+  {
+    "F0": "21.04.2024",
+    "F1": "Team",
+    "F2": "WLD",
+    "Datum": "So, 21.04.2024",
+    "Termin": "6. Rd. Team WLD",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "21.04.2024",
+    "F1": "Team",
+    "F2": "WLH",
+    "Datum": "So, 21.04.2024",
+    "Termin": "7. Rd. Team WLH",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "22.04.2024",
+    "F1": "WM Senioren Mixed",
+    "F2": "",
+    "Datum": "Mo, 22.04.2024",
+    "Termin": "2. Rd. WM Senioren Mixed ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "24.04.2024",
+    "F1": "WM Senioren Mixed",
+    "F2": "",
+    "Datum": "Mi, 24.04.2024",
+    "Termin": "2. Rd. WM Senioren Mixed ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "27.04.2024",
+    "F1": "STM Trio",
+    "F2": "WLD",
+    "Datum": "Sa, 27.04.2024",
+    "Termin": "Semifinale STM Trio WLD",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "27.04.2024",
+    "F1": "STM Trio",
+    "F2": "WLH",
+    "Datum": "Sa, 27.04.2024",
+    "Termin": "Semifinale STM Trio WLH",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "28.04.2024",
+    "F1": "STM Trio",
+    "F2": "WLD",
+    "Datum": "So, 28.04.2024",
+    "Termin": "Finale STM Trio WLD",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "28.04.2024",
+    "F1": "STM Trio",
+    "F2": "WLH",
+    "Datum": "So, 28.04.2024",
+    "Termin": "Finale STM Trio WLH",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "29.04.2024",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 29.04.2024",
+    "Termin": "9. Rd. Team H1",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "01.05.2024",
+    "F1": "Nenntag",
+    "F2": "",
+    "Datum": "Mi, 01.05.2024",
+    "Termin": "Nenntag Ranglisten Mixed",
+    "Ort": "",
+    "Zeit": ""
+  },
+  {
+    "F0": "01.05.2024",
+    "F1": "WM Senioren Mixed",
+    "F2": "",
+    "Datum": "Mi, 01.05.2024",
+    "Termin": "Finale WM Senioren Mixed  A+B+C",
+    "Ort": "Plus",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "06.05.2024",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 06.05.2024",
+    "Termin": "10. Rd. Team H1",
+    "Ort": "Cumberland",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "08.05.2024",
+    "F1": "RL Mixed",
+    "F2": "",
+    "Datum": "Mi, 08.05.2024",
+    "Termin": "1. Rd. RL Mixed ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "09.05.2024",
+    "F1": "RL Mixed",
+    "F2": "",
+    "Datum": "Do, 09.05.2024",
+    "Termin": "1. Rd. RL Mixed ",
+    "Ort": "Plus",
+    "Zeit": "10:00 + 13:30"
+  },
+  {
+    "F0": "11.05.2024",
+    "F1": "WM Senioren Einzel",
+    "F2": "",
+    "Datum": "Sa, 11.05.2024",
+    "Termin": "Finale WM Senioren Einzel Herren C+B",
+    "Ort": "Cumberland",
+    "Zeit": "11:00 + 13:30"
+  },
+  {
+    "F0": "11.05.2024",
+    "F1": "WM Senioren Einzel",
+    "F2": "",
+    "Datum": "Sa, 11.05.2024",
+    "Termin": "Finale WM Senioren Einzel Herren A",
+    "Ort": "Plus",
+    "Zeit": "9:00"
+  },
+  {
+    "F0": "11.05.2024",
+    "F1": "WM Senioren Einzel",
+    "F2": "",
+    "Datum": "Sa, 11.05.2024",
+    "Termin": "Finale WM Senioren Einzel Damen A+B",
+    "Ort": "Plus",
+    "Zeit": "9:00"
+  },
+  {
+    "F0": "13.05.2024",
+    "F1": "RL Mixed",
+    "F2": "",
+    "Datum": "Mo, 13.05.2024",
+    "Termin": "2. Rd. RL Mixed ",
+    "Ort": "Cumberland",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "13.05.2024",
+    "F1": "RL Mixed",
+    "F2": "",
+    "Datum": "Mo, 13.05.2024",
+    "Termin": "2. Rd. RL Mixed ",
+    "Ort": "Plus",
+    "Zeit": "17:00 + 20:00"
+  },
+  {
+    "F0": "25.05.2024",
+    "F1": "STM Team",
+    "F2": "WLH",
+    "Datum": "Sa, 25.05.2024",
+    "Termin": "Semifinale STM Team WLH",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "25.05.2024",
+    "F1": "STM Team",
+    "F2": "WLD",
+    "Datum": "Sa, 25.05.2024",
+    "Termin": "Semifinale STM Team WLD",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "26.05.2024",
+    "F1": "STM Team",
+    "F2": "WLH",
+    "Datum": "So, 26.05.2024",
+    "Termin": "Finale STM Team WLH",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "26.05.2024",
+    "F1": "STM Team",
+    "F2": "WLD",
+    "Datum": "So, 26.05.2024",
+    "Termin": "Finale STM Team WLD",
+    "Ort": "Plus",
+    "Zeit": "TBA"
+  },
+  {
+    "F0": "27.05.2024",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 27.05.2024",
+    "Termin": "11. Rd. Team H1",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "30.05.2024",
+    "F1": "WM Mixed",
+    "F2": "",
+    "Datum": "Do, 30.05.2024",
+    "Termin": "Finale WM Mixed ",
+    "Ort": "Cumberland",
+    "Zeit": "10:00"
+  },
+  {
+    "F0": "03.06.2024",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 03.06.2024",
+    "Termin": "12. Rd. Team H1",
+    "Ort": "Cumberland",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "10.06.2024",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 10.06.2024",
+    "Termin": "13. Rd. Team H1",
+    "Ort": "Plus",
+    "Zeit": "19:00"
+  },
+  {
+    "F0": "17.06.2024",
+    "F1": "Team",
+    "F2": "H1",
+    "Datum": "Mo, 17.06.2024",
+    "Termin": "14. Rd. Team H1",
+    "Ort": "Cumberland",
+    "Zeit": "19:00"
+  }
+]

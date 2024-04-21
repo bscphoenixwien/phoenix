@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Webseite des BSC Phönix Wien" />
+  <link rel="stylesheet" href="/assets/styles.css">
+  <title>BSC Phönix Wien</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+<header>
+	<div class="logo">
+	<!-- Navigation Menu Mobile -->
+	<div class="menu_icon" onclick="menu_animation(this)">
+	  <div class="bar1"></div>
+	  <div class="bar2"></div>
+	  <div class="bar3"></div>
+	  <div id="menu_drop" class="navbar">
+		<a href="/home" class="navbar-content">Home</a>
+		<div class="subnav">
+		  <button class="subnavbtn">Verein</button>
+		  <div class="subnav-content">
+			<a href="/geschichte">Geschichte</a>
+			<a href="/teams">Teams</a>
+			<a href="/vorstand">Vorstand</a>
+		  </div>
+		</div>
+		<div class="subnav">
+		  <button class="subnavbtn">Ergebnisse</button>
+		  <div class="subnav-content">
+			<a href="/tabellen">Tabellen</a>
+			<a href="/schnittliste">Schnittliste</a>
+		  </div>
+		</div>
+		<a href="/termine" class="navbar-content">Termine</a>
+		<a href="/gallerie" class="navbar-content">Gallerie</a>
+		<a href="/links" class="navbar-content">Links</a>
+		<a href="/archiv" class="navbar-content">Archiv</a>
+	  </div>		  
+	</div>
+
+	<script>
+	var menuOpen = false; // Track the menu state
+
+	function menu_animation() {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  menu_icon.classList.toggle("change"); // Toggle the "X" animation
+	  var dropdown = document.getElementById("menu_drop");
+	  menuOpen = !menuOpen; // Toggle the menu state
+
+	  if (menuOpen) {
+		dropdown.style.display = "block"; // Open the menu
+	  } else {
+		dropdown.style.display = "none"; // Close the menu
+	  }
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  if (!menu_icon.contains(event.target) && menuOpen) {
+		var dropdown = document.getElementById("menu_drop");
+		dropdown.style.display = "none";
+		menuOpen = false; // Close the menu and update the state
+		menu_icon.classList.remove("change"); // Remove the "X" animation
+	  }
+	}
+	</script>
+</header>
+<!-- Navigation Bar Desktop -->
+<div class="row">
+<div class="column left">
+	<div class="column nav">
+	  <a href="/home" class="navbar-content">Home</a>
+	  <div class="subnav">
+		<button class="subnavbtn">Verein</button>
+		<div class="subnav-content">
+		  <a href="/geschichte">Geschichte</a>
+		  <a href="/teams">Teams</a>
+		  <a href="/vorstand">Vorstand</a>
+		</div>
+	  </div>
+	  <div class="subnav">
+		<button class="subnavbtn">Ergebnisse</button>
+		<div class="subnav-content">
+		  <a href="/tabellen">Tabellen</a>
+		  <a href="/schnittliste">Schnittliste</a>
+		</div>
+	  </div>
+	  <a href="/termine" class="navbar-content">Termine</a>
+	  <a href="/gallerie" class="navbar-content">Gallerie</a>
+	  <a href="/links" class="navbar-content">Links</a>
+	  <a href="/archiv" class="navbar-content">Archiv</a>
+	</div>
+</div>
+<div class="column main">
+<!-- Content specific to the section -->
+	<h1>Tabellen</h1>
+	<!-- Filter buttons-->
+	<div class="stats-grid">
+		<div class="stat1">
+		  <button type="button" class="filter-button active" data-filter="WLD">Damen</button>
+		  <button type="button" class="filter-button" data-filter="WLH">1. Herren</button>
+		  <button type="button" class="filter-button" data-filter="1H">2. Herren</button>
+		</div>
+		<div class="stat2">
+		  <button type="button" class="filter-button active" data-filter="Team">Team</button>
+		  <button type="button" class="filter-button" data-filter="Trio">Trio</button>
+		</div>
+	</div>
+	<table class="stats-table">
+	  <thead>
+		<tr>
+		  <!-- Table headers will be inserted here dynamically -->
+		</tr>
+	  </thead>
+	  <tbody>
+		<!-- Data rows will be inserted here -->
+	  </tbody>
+	</table>
+	<script>
+	  // Your data (initially empty)
+	  let data = [];
+
+	  // Get references to filter buttons and the table body
+	  const filterButtons1 = document.querySelectorAll(".stat1 .filter-button");
+	  const filterButtons2 = document.querySelectorAll(".stat2 .filter-button");
+	  const tbody = document.querySelector(".stats-table tbody");
+
+	  const columnsToShow = {
+		'WLD_Team': ['Platz', 'Team', 'S', 'U', 'N', 'Pins', 'BE', 'BD', 'Punkte'],
+		'WLH_Team': ['Platz', 'Team', 'S', 'U', 'N', 'Pins', 'BE', 'Punkte'],
+		'1H_Team': ['Platz', 'Team', 'S', 'U', 'N', 'Pins', 'BE', 'Punkte'],
+		'default': ['Platz', 'Team', 'S', 'U', 'N', 'Pins', 'Punkte']
+	  }
+
+	  // Function to apply filters and repopulate the table
+	  function applyFilters() {
+		const selectedFilters1 = Array.from(filterButtons1).find(button => button.classList.contains("active")).getAttribute("data-filter");
+		const selectedFilters2 = Array.from(filterButtons2).find(button => button.classList.contains("active")).getAttribute("data-filter");
+
+		// Get the list of columns to display for the active combination or use default
+		const columnsToDisplay = columnsToShow[`${selectedFilters1}_${selectedFilters2}`] || columnsToShow['default'];
+
+		// Dynamically generate and populate table headers
+		const theadRow = document.querySelector(".stats-table thead tr");
+
+		// Clear any existing headers
+		theadRow.innerHTML = '';
+
+		columnsToDisplay.forEach(column => {
+		  const th = document.createElement("th");
+		  th.textContent = column;
+		  theadRow.appendChild(th);
+		});
+
+		//Filter imported data
+		const filteredData = data.filter(entry => {
+		  const matchesKlasse = selectedFilters1 === "" || entry.Klasse === selectedFilters1;
+		  const matchesModus = selectedFilters2 === "" || entry.Modus === selectedFilters2;
+		  return matchesKlasse && matchesModus;
+		});
+		tbody.innerHTML = "";
+		filteredData.forEach(entry => {
+		  const row = document.createElement("tr");
+		  columnsToDisplay.forEach(column => {
+		    row.innerHTML += `<td>${entry[column]}</td>`;
+		  });
+		  tbody.appendChild(row);
+		});
+	  }
+
+	  // Add click event listeners to buttons within each group
+	  filterButtons1.forEach(button => {
+		button.addEventListener("click", () => {
+		  filterButtons1.forEach(b => b.classList.remove("active"));
+		  button.classList.add("active");
+		  applyFilters();
+		});
+	  });
+	  filterButtons2.forEach(button => {
+		button.addEventListener("click", () => {
+		  filterButtons2.forEach(b => b.classList.remove("active"));
+		  button.classList.add("active");
+		  applyFilters();
+		});
+	  });
+
+	  // Function to fetch and populate the table with data
+	  async function fetchDataAndPopulateTable() {
+		try {
+		  const response = await fetch('/assets/Tabellen.json');
+		  data = await response.json();
+		  applyFilters();
+		} catch (error) {
+		  console.error('Error fetching or parsing data:', error);
+		}
+	  }
+
+	  // Call the function to fetch and populate the table
+	  fetchDataAndPopulateTable();
+	</script>
+<!-- End of specific content-->
+<!-- Closing divs -->
+</div>
+</div>
+<footer>
+	<p>&copy;  My Site. All rights reserved.</p>
+</footer>
+</body>
+</html>

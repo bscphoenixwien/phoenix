@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Webseite des BSC Phönix Wien" />
+  <link rel="stylesheet" href="/assets/styles.css">
+  <title>BSC Phönix Wien</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+<header>
+	<div class="logo">
+	<!-- Navigation Menu Mobile -->
+	<div class="menu_icon" onclick="menu_animation(this)">
+	  <div class="bar1"></div>
+	  <div class="bar2"></div>
+	  <div class="bar3"></div>
+	  <div id="menu_drop" class="navbar">
+		<a href="/home" class="navbar-content">Home</a>
+		<div class="subnav">
+		  <button class="subnavbtn">Verein</button>
+		  <div class="subnav-content">
+			<a href="/geschichte">Geschichte</a>
+			<a href="/teams">Teams</a>
+			<a href="/vorstand">Vorstand</a>
+		  </div>
+		</div>
+		<div class="subnav">
+		  <button class="subnavbtn">Ergebnisse</button>
+		  <div class="subnav-content">
+			<a href="/tabellen">Tabellen</a>
+			<a href="/schnittliste">Schnittliste</a>
+		  </div>
+		</div>
+		<a href="/termine" class="navbar-content">Termine</a>
+		<a href="/gallerie" class="navbar-content">Gallerie</a>
+		<a href="/links" class="navbar-content">Links</a>
+		<a href="/archiv" class="navbar-content">Archiv</a>
+	  </div>		  
+	</div>
+
+	<script>
+	var menuOpen = false; // Track the menu state
+
+	function menu_animation() {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  menu_icon.classList.toggle("change"); // Toggle the "X" animation
+	  var dropdown = document.getElementById("menu_drop");
+	  menuOpen = !menuOpen; // Toggle the menu state
+
+	  if (menuOpen) {
+		dropdown.style.display = "block"; // Open the menu
+	  } else {
+		dropdown.style.display = "none"; // Close the menu
+	  }
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  if (!menu_icon.contains(event.target) && menuOpen) {
+		var dropdown = document.getElementById("menu_drop");
+		dropdown.style.display = "none";
+		menuOpen = false; // Close the menu and update the state
+		menu_icon.classList.remove("change"); // Remove the "X" animation
+	  }
+	}
+	</script>
+</header>
+<!-- Navigation Bar Desktop -->
+<div class="row">
+<div class="column left">
+	<div class="column nav">
+	  <a href="/home" class="navbar-content">Home</a>
+	  <div class="subnav">
+		<button class="subnavbtn">Verein</button>
+		<div class="subnav-content">
+		  <a href="/geschichte">Geschichte</a>
+		  <a href="/teams">Teams</a>
+		  <a href="/vorstand">Vorstand</a>
+		</div>
+	  </div>
+	  <div class="subnav">
+		<button class="subnavbtn">Ergebnisse</button>
+		<div class="subnav-content">
+		  <a href="/tabellen">Tabellen</a>
+		  <a href="/schnittliste">Schnittliste</a>
+		</div>
+	  </div>
+	  <a href="/termine" class="navbar-content">Termine</a>
+	  <a href="/gallerie" class="navbar-content">Gallerie</a>
+	  <a href="/links" class="navbar-content">Links</a>
+	  <a href="/archiv" class="navbar-content">Archiv</a>
+	</div>
+</div>
+<div class="column main">
+<!-- Content specific to the section -->
+	<h1> Vorstand des BSC Phönix Wien</h1>
+	<div class="board-grid">
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Obmann: Erwin Simané</h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Obmann Stellvertreter: Christian Lemberger</h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Kassier: Thomas Schäfer</h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Kassier Stellvertreter: Patrick Schlosser</h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Schriftführer: Gabriela Christian</h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Schriftführer Stellvertreter: Lukas Christian</h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Kontrolle:</h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Kontrolle Stellvertreter: </h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Sportlicher Leiter: Christian Lemberger</h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+		<div class="card-pair">
+			<button class="card">
+			  <h3>Sportlicher Leiter Stellvertreter: Erwin Simané</h3>
+			</button>
+			<div class="card-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+			</div>
+		</div>
+	</div>
+<!-- End of specific content-->
+<!-- Closing divs -->
+</div>
+</div>
+<!-- additional scripts-->
+	<script>
+	var cardvar = document.getElementsByClassName("card");
+	var i;
+
+	for (i = 0; i < cardvar.length; i++) {
+	  cardvar[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+		} else {
+		  content.style.maxHeight = (content.scrollHeight+10) + "px";
+		} 
+	  });
+	}
+	</script>
+<footer>
+	<p>&copy;  My Site. All rights reserved.</p>
+</footer>
+</body>
+</html>

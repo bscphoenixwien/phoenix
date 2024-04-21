@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Webseite des BSC Phönix Wien" />
+  <link rel="stylesheet" href="/assets/styles.css">
+  <title>BSC Phönix Wien</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+<header>
+	<div class="logo">
+	<!-- Navigation Menu Mobile -->
+	<div class="menu_icon" onclick="menu_animation(this)">
+	  <div class="bar1"></div>
+	  <div class="bar2"></div>
+	  <div class="bar3"></div>
+	  <div id="menu_drop" class="navbar">
+		<a href="/home" class="navbar-content">Home</a>
+		<div class="subnav">
+		  <button class="subnavbtn">Verein</button>
+		  <div class="subnav-content">
+			<a href="/geschichte">Geschichte</a>
+			<a href="/teams">Teams</a>
+			<a href="/vorstand">Vorstand</a>
+		  </div>
+		</div>
+		<div class="subnav">
+		  <button class="subnavbtn">Ergebnisse</button>
+		  <div class="subnav-content">
+			<a href="/tabellen">Tabellen</a>
+			<a href="/schnittliste">Schnittliste</a>
+		  </div>
+		</div>
+		<a href="/termine" class="navbar-content">Termine</a>
+		<a href="/gallerie" class="navbar-content">Gallerie</a>
+		<a href="/links" class="navbar-content">Links</a>
+		<a href="/archiv" class="navbar-content">Archiv</a>
+	  </div>		  
+	</div>
+
+	<script>
+	var menuOpen = false; // Track the menu state
+
+	function menu_animation() {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  menu_icon.classList.toggle("change"); // Toggle the "X" animation
+	  var dropdown = document.getElementById("menu_drop");
+	  menuOpen = !menuOpen; // Toggle the menu state
+
+	  if (menuOpen) {
+		dropdown.style.display = "block"; // Open the menu
+	  } else {
+		dropdown.style.display = "none"; // Close the menu
+	  }
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  if (!menu_icon.contains(event.target) && menuOpen) {
+		var dropdown = document.getElementById("menu_drop");
+		dropdown.style.display = "none";
+		menuOpen = false; // Close the menu and update the state
+		menu_icon.classList.remove("change"); // Remove the "X" animation
+	  }
+	}
+	</script>
+</header>
+<!-- Navigation Bar Desktop -->
+<div class="row">
+<div class="column left">
+	<div class="column nav">
+	  <a href="/home" class="navbar-content">Home</a>
+	  <div class="subnav">
+		<button class="subnavbtn">Verein</button>
+		<div class="subnav-content">
+		  <a href="/geschichte">Geschichte</a>
+		  <a href="/teams">Teams</a>
+		  <a href="/vorstand">Vorstand</a>
+		</div>
+	  </div>
+	  <div class="subnav">
+		<button class="subnavbtn">Ergebnisse</button>
+		<div class="subnav-content">
+		  <a href="/tabellen">Tabellen</a>
+		  <a href="/schnittliste">Schnittliste</a>
+		</div>
+	  </div>
+	  <a href="/termine" class="navbar-content">Termine</a>
+	  <a href="/gallerie" class="navbar-content">Gallerie</a>
+	  <a href="/links" class="navbar-content">Links</a>
+	  <a href="/archiv" class="navbar-content">Archiv</a>
+	</div>
+</div>
+<div class="column main">
+<!-- Content specific to the section -->
+	<div class="column middle">
+	<h1>Neuesten Beiträge</h1>
+	<button class="card">
+	  <h3>Veni, Vidi, Vize</h3>
+	  <h4>Österreichischer Cup, 14. & 15. Oktober 2023</h4>
+	</button>
+	<div class="card-content">
+
+	</div>
+	<button class="card">
+	  <h3>Geschenke and die Konkurrenz</h3>
+	  <h4>2. Runde Trio WLH Cumberland, 08. Oktober 2023</h4>
+	</button>
+	<div class="card-content">
+	  <p>Die 2. Runde der Trio Saison begann wie die Erste mit dem Freispiel des Tages. Die Cumberland Halle glänzte auch gleich zu Beginn wieder mit technischem Gebrechen, denn auf zwei der vier Doppelbahnen wurde nach der ersten Partei nicht mehr weitergespielt. Spiel Zwei sah danach auch richtig gut aus, nach 8 Frames betrug der Vorsprung fast 70 Pins. Aber ein desaströses Finish gab dem Gegner noch eine minimale Chance, und die nutzten sie eiskalt - erstes Geschenk.</p>
+	  <p>Spiel Drei wurde zwar noch gewonnen, danach folgten aber vier Niederlagen. Diese waren nicht nur durch spielerischer Fehler auf der Bahn selbst begründet, auch die Wechsel waren katastrophal. Falls es davor noch keine klare Meinung bezüglich Einspielen gab, diese Runde war eine schmerzhafte Lektion. Auch wenn wir eine Amateurliga sind, ist das stümperhaft - zweites Geschenk.</p> 
+	  <p>So waren es am Ende nur miserable 4 Punkte. Das Momentum wäre bei einem Sieg in der 2. Partie sicherlich ein anderes gewesen und der ganze Spieltag hätte anders verlaufen können. Das selbst erklärte Saisonziel, nicht nur mitzumischen, sondern auch auf dem Podest zu landen, kann sich maximal eine solche Runde erlauben. Aber Weihnachten ist ja auch nur einmal im Jahr.</p>
+	  <img class="myImages" id="myImg" src="/assets/images/20231008.jpg">
+	  <p><i>Spruch des Tages: "Wenn ihr die Reservebahn nicht wollt, dann nehmen wir sie eben" (Thomas)</i></p>
+	</div>
+	<button class="card">
+	  <h3>Adieu Mittagspause - der Sonntag gehört wieder uns</h3>
+	  <h4>1. Runde Team WLH Plus, 01. Oktober 2023</h4>
+	</button>
+	<div class="card-content">
+	  <p>Zur Freude aller ist der Teammodus vom Vorjahr mit 4+3 Partien inklusive Pause an einem Sonntag wieder Geschichte. Im diesjährigen Modus wird jede Runde nur gegen 5 der 7 anderen Teams gespielt. Bei in Summe sieben Runden geht sich das aber alles schön aus.</p>
+	  <p>Im Vergleich zur Trio eine Woche zuvor spielten wir diesmal am unteren Ende der Halle, die Bahnen wirkten von Beginn an um einiges aggressiver. Mannschaftlich kamen wir nicht auf Touren und so gingen die ersten zwei Spiele sang- und klanglos verloren. Die Fehler waren damit dann aber eingestellt und es folgte ein achtbarer Sieg gegen eine bis zu dem Zeitpunkt herrausragend spielende 1. Unistahl Mannschaft sowie ein weiterer gegen Future.</p>
+	  <p>In der letzten Partie kamen wir auch wegen Verletzungspech nicht mehr an die nötige Leistung heran. Da sich aber viele Teams schwer taten, ergibt das nach der ersten Runde den vierten Tabellenplatz. Wenn man bedenkt, dass kein Team gegen uns 800 spielte, wäre aber um einiges mehr drinnen gewesen. Beim nächsten mal eben besser machen.</p>
+	  <img class="myImages" id="myImg" src="/assets/images/20231001.jpg">	  
+	  <p><i>Spruch des Tages: "Letztes Jahr wären wir immer noch in der Mittagspause" (Patrick)</i></p>
+	</div>
+	<button class="card">
+	  <h3>Quali sicher überstanden: Baker-Marathon, wir kommen!</h3>
+	  <h4>Qup-Qualifikation Cumberland, 30. September 2023</h4>
+	</button>
+	<div class="card-content">
+	  <p>Die Cup Qualifikationsrunde zählt historisch betrachtet beim BSC Phönix Wien nicht gerade zu den Lieblingsterminen der Saison. Dennoch waren wir diesmal vollzählig, um uns mit unserem Losgegner, dem Sportunion BC Funk 1, zu messen.</p>
+	  <p>Der am Papier klaren Favoritenrolle konnte man, dank einer sehr starken Partie von Rafael und Thomas, gleich von Beginn an gerecht werden; mit 863:715 war früh für klare Verhältnisse gesorgt. Bis zum Ende hatte die Qualifikation dann eher Trainingscharacter für die kommenden Landesliga Runden. Man kann davon ausgehen, dass der Hallenschnitt in der Cumberland auch dieses Jahr wieder höher sein wird als in der Plus.</p>
+	  <p>Letzendlich wurde das Duell souverän mit 2438:2065 entschieden, als Kür folgt in zwei Wochen dann der Cupbewerb selbst, der dieses Jahr in einem ungewohnten Modus ausgetragen wird. Anstatt der drei typischen Spielen als Team in jeder KO-Runde, finden 12 (in der Vorrunde 20 Spiele) im Baker-Team-Modus statt. Spannung sowie mögliches Chaos sind vorprogrammiert.</p>
+	  <img class="myImages" id="myImg" src="/assets/images/20230930.jpg">
+	  <p><i>Sprüche des Tages:</br>"Also manchmal bin ich schon neidisch, wenn man ganz allein auf der Bahn spielt" (Lukas zu Thomas)</br>"Wenn er das jetzt auch noch könnte, dann spielt er nicht mehr bei uns" (Thomas über Rafael)</i></p>
+	</div>
+	<button class="card">
+	  <h3>Viele Punkte, wenig Pins - klassisch Phönix</h3>
+	  <h4>1. Runde Trio WLH Plus, 24. September 2023</h4>
+	</button>
+	<div class="card-content">
+	  <p>Aufgrund der akuten Personalnot beim BC Etoile wird die Trio diese Saison nur mit 7 Teams bestritten. So war es dann auch, dass gleich die erste Partie ohne Gegner gespielt wurde. Bei Gerald und Lukas hatte man bis zum 4. Frame den Eindruck, sie wollten nur nicht zu hoch gewinnen. Aber die verlängerte Einspielzeit war dann beendet und so wurde es noch unser höchstes Ergebnis an dem Spieltag - taktisch klug gewählt.</p>
+	  <p>Dass es in der Folge nicht zu mehr Pins reichte, war vielleicht mit der Tatsache geschuldet, dass die Verhältnisse auf einer Doppelbahn stark davon abhingen, wie wo zuvor darauf gespielt wurde. Erste hitzige Stimmen in der Halle, wie die Bahnen nicht zu bespielen seien, insbesondere mit welchem Material, ließen nicht lange auf sich warten.</p>
+	  <p>So richtig zufrieden war dann keiner von uns mit seiner Leistung, allerdings wurde das Minimalziel, jedes Spiel zu gewinnen wenn der Gegner weniger als 550 spielt - was gleich 4 mal vorkam, souverän erfüllt. Am Ende standen somit 10 Punkte am Konto, was im Zwischenklassement den respektablen 2. Platz ergibt, obwohl nur die fünftmeisten Pins gespielt wurden. Hauptsache Gewinnen, klassisch Phönix eben.</p>
+	  <img class="myImages" id="myImg" src="/assets/images/20230924.jpg">
+	  <p><i>Spruch des Tages: "In der Halle geht das Gerücht um, das Rafi und Daniel trainieren waren" (Lukas)</i></p>
+	</div>
+	<button class="card">
+	  <h3>Gelungene Generalprobe für die neue Saison</h3>
+	  <h4>Strike and Spare Sommerturnier, 27. August 2023</h4>
+	</button>
+	<div class="card-content">
+	  <p>Nach einer durchaus durchwachsenen Vorrunde - trotz eines guten Starts in der ersten Partie folgten zwei eher Bescheidenene und somit nur der magere zweite Platz in Gruppe C - kam im KO-Modus am Nachmittag dann langsam der Rhythmus hinein.</p>
+	  <p>Erfolgreichen Duellen gegen BC Etoile (775:695) und Black Jack Bowlers (824:755) folgte dann der Showdown im Finale mit dem BC Unistahl, gespickt mit amtierenden Staatsmeistern - und Zukünftigen. Dank einer fehlerfreien Partie, inbesondere durch das Sparespiel (und den einen oder anderen glücklicheren Pinfall), durfte am Ende mit doch deutlichen 855:742 verdient der Turniersieg gefeiert werden. Nächste Etappe: Wiederholung im Cup Mitte Oktober!</p>
+	  <p> Den Bericht und alle Ergebnisse findet ihr hier (<a href="http://strikeandspare.at/index_htm_files/fertiger%20Bericht%20Sommerturnier%202023.pdf">externer Link</a>).</p>
+	  <p><i>Spruch des Tages: "Foul/Spare statt Drilling: taktische Meisterleistung" (Thomas)</i></p>
+	</div>
+	</div>
+	<div class="column right">
+	<h2>Nächsten Termine</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+	</div>
+<!-- End of specific content-->
+<!-- Closing divs -->
+</div>
+</div>
+<!-- additional scripts-->
+	<script>
+	var cardvar = document.getElementsByClassName("card");
+	var i;
+
+	for (i = 0; i < cardvar.length; i++) {
+	  cardvar[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+		} else {
+		  content.style.maxHeight = (content.scrollHeight+10) + "px";
+		} 
+	  });
+	}
+	</script>
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+	  <img class="modal-content" id="img01">
+	</div>
+	<script>
+	// Create references to the modal
+	var modal = document.getElementById("myModal");
+	// Get the images and insert it inside the modal
+	var images = document.getElementsByClassName('myImages');
+	var modalImg = document.getElementById("img01");
+	// Go through all of the images within the class
+	for (var i = 0; i < images.length; i++) {
+	  var img = images[i];
+	  //and attach all of them to the click listener
+	  img.onclick = function(event){
+		console.log(event);
+		modal.style.display = "flex";
+		modalImg.src = this.src;
+	  }
+	}
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+	  if (event.target == modal) {
+		modal.style.display = "none";
+	  }
+	}
+	</script>
+<footer>
+	<p>&copy;  My Site. All rights reserved.</p>
+</footer>
+</body>
+</html>

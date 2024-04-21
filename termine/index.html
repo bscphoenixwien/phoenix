@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Webseite des BSC Phönix Wien" />
+  <link rel="stylesheet" href="/assets/styles.css">
+  <title>BSC Phönix Wien</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+<header>
+	<div class="logo">
+	<!-- Navigation Menu Mobile -->
+	<div class="menu_icon" onclick="menu_animation(this)">
+	  <div class="bar1"></div>
+	  <div class="bar2"></div>
+	  <div class="bar3"></div>
+	  <div id="menu_drop" class="navbar">
+		<a href="/home" class="navbar-content">Home</a>
+		<div class="subnav">
+		  <button class="subnavbtn">Verein</button>
+		  <div class="subnav-content">
+			<a href="/geschichte">Geschichte</a>
+			<a href="/teams">Teams</a>
+			<a href="/vorstand">Vorstand</a>
+		  </div>
+		</div>
+		<div class="subnav">
+		  <button class="subnavbtn">Ergebnisse</button>
+		  <div class="subnav-content">
+			<a href="/tabellen">Tabellen</a>
+			<a href="/schnittliste">Schnittliste</a>
+		  </div>
+		</div>
+		<a href="/termine" class="navbar-content">Termine</a>
+		<a href="/gallerie" class="navbar-content">Gallerie</a>
+		<a href="/links" class="navbar-content">Links</a>
+		<a href="/archiv" class="navbar-content">Archiv</a>
+	  </div>		  
+	</div>
+
+	<script>
+	var menuOpen = false; // Track the menu state
+
+	function menu_animation() {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  menu_icon.classList.toggle("change"); // Toggle the "X" animation
+	  var dropdown = document.getElementById("menu_drop");
+	  menuOpen = !menuOpen; // Toggle the menu state
+
+	  if (menuOpen) {
+		dropdown.style.display = "block"; // Open the menu
+	  } else {
+		dropdown.style.display = "none"; // Close the menu
+	  }
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  if (!menu_icon.contains(event.target) && menuOpen) {
+		var dropdown = document.getElementById("menu_drop");
+		dropdown.style.display = "none";
+		menuOpen = false; // Close the menu and update the state
+		menu_icon.classList.remove("change"); // Remove the "X" animation
+	  }
+	}
+	</script>
+</header>
+<!-- Navigation Bar Desktop -->
+<div class="row">
+<div class="column left">
+	<div class="column nav">
+	  <a href="/home" class="navbar-content">Home</a>
+	  <div class="subnav">
+		<button class="subnavbtn">Verein</button>
+		<div class="subnav-content">
+		  <a href="/geschichte">Geschichte</a>
+		  <a href="/teams">Teams</a>
+		  <a href="/vorstand">Vorstand</a>
+		</div>
+	  </div>
+	  <div class="subnav">
+		<button class="subnavbtn">Ergebnisse</button>
+		<div class="subnav-content">
+		  <a href="/tabellen">Tabellen</a>
+		  <a href="/schnittliste">Schnittliste</a>
+		</div>
+	  </div>
+	  <a href="/termine" class="navbar-content">Termine</a>
+	  <a href="/gallerie" class="navbar-content">Gallerie</a>
+	  <a href="/links" class="navbar-content">Links</a>
+	  <a href="/archiv" class="navbar-content">Archiv</a>
+	</div>
+</div>
+<div class="column main">
+<!-- Content specific to the section -->
+	<h1> Spieltermine der Saison 2023-24</h1>
+
+	<div class="stat1">
+	  <button type="button" class="filter-button active" data-filter="" style="display:none">Alle</button>
+	</div>
+	<div class="stat2">
+	  <button type="button" class="filter-button active" data-filter="" style="display:none">Alle</button>
+	</div>
+
+
+	<div class="schedule-container">
+	<div class="schedule-grid">
+	  <div class="schedule-item">
+		<h2>Place1</h2>
+		<input type="checkbox" id="entry1" />
+		<label for="entry1">Option A</label>
+		<input type="checkbox" id="entry2" />
+		<label for="entry2">Option B</label>
+		<input type="checkbox" id="entry3" />
+		<label for="entry3">Option C</label>
+	  </div>
+	  <div class="schedule-item">
+		<h2>Title1</h2>
+		<input type="checkbox" id="entry4" />
+		<label for="entry4">Entry 4</label>
+		<input type="checkbox" id="entry5" />
+		<label for="entry5">Entry 5</label>
+		<input type="checkbox" id="entry6" />
+		<label for="entry6">Entry 6</label>
+		<input type="checkbox" id="entry7" />
+		<label for="entry7">Entry 7</label>
+		<input type="checkbox" id="entry8" />
+		<label for="entry8">Entry 8</label>
+		<input type="checkbox" id="entry9" />
+		<label for="entry9">Entry 9</label>
+	  </div>
+	  <div class="schedule-item">
+		<h2>Place2</h2>
+		<input type="checkbox" id="entry10" />
+		<label for="entry10">Option A</label>
+		<input type="checkbox" id="entry11" />
+		<label for="entry11">Option B</label>
+		<input type="checkbox" id="entry12" />
+		<label for="entry12">Option C</label>
+	  </div>
+	  <div class="schedule-item">
+		<h2>Title2</h2>
+		<input type="checkbox" id="entry13" />
+		<label for="entry13">Entry 7</label>
+		<input type="checkbox" id="entry14" />
+		<label for="entry14">Entry 8</label>
+		<input type="checkbox" id="entry15" />
+		<label for="entry15">Entry 9</label>
+		<input type="checkbox" id="entry16" />
+		<label for="entry16">Entry 10</label>
+		<input type="checkbox" id="entry17" />
+		<label for="entry17">Entry 11</label>
+		<input type="checkbox" id="entry18" />
+		<label for="entry18">Entry 12</label>
+	  </div>
+	</div>
+	</div>
+
+	<table class="stats-table">
+	  <thead>
+		<tr>
+		  <th>Datum</th>
+		  <th>Termin</th>
+		  <th>Ort</th>
+		  <th>Zeit</th>
+		</tr>
+	  </thead>
+	  <tbody>
+		<!-- Data rows will be inserted here -->
+	  </tbody>
+	</table>
+	<script>
+	  // Your data (initially empty)
+	  let data = [];
+
+	  // Get references to filter buttons and the table body
+	  const filterButtons1 = document.querySelectorAll(".stat1 .filter-button");
+	  const filterButtons2 = document.querySelectorAll(".stat2 .filter-button");
+	  const tbody = document.querySelector(".stats-table tbody");
+
+	  // Function to apply filters and repopulate the table
+	  function applyFilters() {
+		const selectedFilters1 = Array.from(filterButtons1).find(button => button.classList.contains("active")).getAttribute("data-filter");
+		const selectedFilters2 = Array.from(filterButtons2).find(button => button.classList.contains("active")).getAttribute("data-filter");
+
+		const filteredData = data.filter(entry => {
+		  const matchesTyp = selectedFilters1 === "" || entry.Typ === selectedFilters1;
+		  const matchesAlter = selectedFilters2 === "" || entry.Alter === selectedFilters2;
+		  return matchesTyp && matchesAlter;
+		});
+		tbody.innerHTML = "";
+		filteredData.forEach(entry => {
+		  const row = document.createElement("tr");
+		  row.innerHTML = `
+			<td>${entry.Datum}</td>
+			<td>${entry.Termin}</td>
+			<td>${entry.Ort}</td>
+			<td>${entry.Zeit}</td>
+		  `;
+		  tbody.appendChild(row);
+		});
+	  }
+
+	  // Add click event listeners to buttons within each group
+	  filterButtons1.forEach(button => {
+		button.addEventListener("click", () => {
+		  filterButtons1.forEach(b => b.classList.remove("active"));
+		  button.classList.add("active");
+		  applyFilters();
+		});
+	  });
+	  filterButtons2.forEach(button => {
+		button.addEventListener("click", () => {
+		  filterButtons2.forEach(b => b.classList.remove("active"));
+		  button.classList.add("active");
+		  applyFilters();
+		});
+	  });
+
+	  // Function to fetch and populate the table with data
+	  async function fetchDataAndPopulateTable() {
+		try {
+		  const response = await fetch('/assets/Termine.json');
+		  data = await response.json();
+		  applyFilters();
+		} catch (error) {
+		  console.error('Error fetching or parsing data:', error);
+		}
+	  }
+
+	  // Call the function to fetch and populate the table
+	  fetchDataAndPopulateTable();
+	</script>
+<!-- End of specific content-->
+<!-- Closing divs -->
+</div>
+</div>
+<footer>
+	<p>&copy;  My Site. All rights reserved.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Webseite des BSC Phönix Wien" />
+  <link rel="stylesheet" href="/assets/styles.css">
+  <title>BSC Phönix Wien</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<body>
+<header>
+	<div class="logo">
+	<!-- Navigation Menu Mobile -->
+	<div class="menu_icon" onclick="menu_animation(this)">
+	  <div class="bar1"></div>
+	  <div class="bar2"></div>
+	  <div class="bar3"></div>
+	  <div id="menu_drop" class="navbar">
+		<a href="/home" class="navbar-content">Home</a>
+		<div class="subnav">
+		  <button class="subnavbtn">Verein</button>
+		  <div class="subnav-content">
+			<a href="/geschichte">Geschichte</a>
+			<a href="/teams">Teams</a>
+			<a href="/vorstand">Vorstand</a>
+		  </div>
+		</div>
+		<div class="subnav">
+		  <button class="subnavbtn">Ergebnisse</button>
+		  <div class="subnav-content">
+			<a href="/tabellen">Tabellen</a>
+			<a href="/schnittliste">Schnittliste</a>
+		  </div>
+		</div>
+		<a href="/termine" class="navbar-content">Termine</a>
+		<a href="/gallerie" class="navbar-content">Gallerie</a>
+		<a href="/links" class="navbar-content">Links</a>
+		<a href="/archiv" class="navbar-content">Archiv</a>
+	  </div>		  
+	</div>
+
+	<script>
+	var menuOpen = false; // Track the menu state
+
+	function menu_animation() {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  menu_icon.classList.toggle("change"); // Toggle the "X" animation
+	  var dropdown = document.getElementById("menu_drop");
+	  menuOpen = !menuOpen; // Toggle the menu state
+
+	  if (menuOpen) {
+		dropdown.style.display = "block"; // Open the menu
+	  } else {
+		dropdown.style.display = "none"; // Close the menu
+	  }
+	}
+
+	// Close the dropdown if the user clicks outside of it
+	window.onclick = function(event) {
+	  var menu_icon = document.querySelector(".menu_icon");
+	  if (!menu_icon.contains(event.target) && menuOpen) {
+		var dropdown = document.getElementById("menu_drop");
+		dropdown.style.display = "none";
+		menuOpen = false; // Close the menu and update the state
+		menu_icon.classList.remove("change"); // Remove the "X" animation
+	  }
+	}
+	</script>
+</header>
+<!-- Navigation Bar Desktop -->
+<div class="row">
+<div class="column left">
+	<div class="column nav">
+	  <a href="/home" class="navbar-content">Home</a>
+	  <div class="subnav">
+		<button class="subnavbtn">Verein</button>
+		<div class="subnav-content">
+		  <a href="/geschichte">Geschichte</a>
+		  <a href="/teams">Teams</a>
+		  <a href="/vorstand">Vorstand</a>
+		</div>
+	  </div>
+	  <div class="subnav">
+		<button class="subnavbtn">Ergebnisse</button>
+		<div class="subnav-content">
+		  <a href="/tabellen">Tabellen</a>
+		  <a href="/schnittliste">Schnittliste</a>
+		</div>
+	  </div>
+	  <a href="/termine" class="navbar-content">Termine</a>
+	  <a href="/gallerie" class="navbar-content">Gallerie</a>
+	  <a href="/links" class="navbar-content">Links</a>
+	  <a href="/archiv" class="navbar-content">Archiv</a>
+	</div>
+</div>
+<div class="column main">
+<!-- Content specific to the section -->
+	<h1>Geschichte des BSC Phönix Wien</h1>
+	<button class="card">
+	  <h3>Kapitel Eins: Wie alles begann </h3>
+	  <h4>von Fritz Schröder (1989-1991)</h4>
+	</button>
+	<div class="card-content">
+	  <p>Anfang 1989 haben sich einige „Abtrünnige“ des Bowlingvereins „E-Werk“ zusammengesetzt. Gabi und Gerhard <b>Kohlhass</b>, Traude und Winfried <b>Gusowski</b>, Erich <b>Judendorfer</b>, Manfred <b>Ferschner</b>, Peter <b>Schalek</b>, Manuela und Alfred <b>Wildmann</b> und Franz <b>Eipeltauer</b> gründeten im Mai 1989 den <b>BC Phönix</b>.</p>
+	  <p>Da sich Franz im Sommer eine Hand brach und Erich Schichtdienst hatte, mussten neue Leute her. Gerhard und Manfred waren damals Arbeitskollegen von mir, und eines Tages fragte mich Manfred, ob ich - nur wenn's wirklich notwendig wäre – als Ersatzmann einspringen könnte. So wurde ich im September 1989; als „Openbowler“ Mitglied des Vereins.</p>
+	  <p>Nach und nach kamen weitere Spieler zu uns: bis 1991 die Gebrüder <b>Weiss</b> (Kurt, Günther, Walter und Gerhard), Erik <b>Mayer</b> und Thomas <b>Eipeltauer</b>. In den nächsten Jahren Gerhard <b>Graf</b>, Walter <b>Halas</b>, Anton <b>Kuschner</b>, Ludwig <b>Posa</b>, Peter <b>Bischoff</b>, Walter <b>Domin</b>, Christian <b>Benischke</b>; Elisabeth und Wolfgang <b>Paulus</b>, Thomas <b>Schöbinger</b> und natürlich meine Tochter Cornelia und mein Sohn Nikolai <b>Schröder</b>; von denen uns viele bereits wieder verlassen haben.</p>
+	</div>
+	<button class="card">
+	  <h3>Kapitel Zwei: Beginn der Obmann Dynastie </h3>
+	  <h4>von Fritz Schröder (1992-1998)</h4>
+	</button>
+	<div class="card-content">
+	  <p> 1992 wurde ich zum ersten Mal zum Obmann des Vereins gewählt, und konnte diese Position über 25 Jahre verteidigen. 1994 begannen wir mit Niki, und in der Folge immer wieder anderen (Christian <b>Karle</b>, Peter <b>Kein</b>, Rene <b>Landl</b>, uvm.), Jugendliche in die Mannschaft einzubauen.</p>
+	  <p>Ich begann intensiv mit der Jugendarbeit, und mit dem Schicksal zu hadern. Kaum war einer unserer Jugendlichen „zu gut“ für uns „Unterklassigen“, wurde er von einem der „großen“ Vereine abgeworben. Angetrieben vom Wr. Jugendleiter Peter <b>Partsch</b>, begann ich im Mai 1996 mit dem Gedanken zu spielen, eine Damenmannschaft zu gründen und im Juli war es dann soweit:</p>
+	  <p>  Doris und Sonja <b>Partsch</b>, Sabine <b>Köck</b>, Patricia <b>Burgeth</b>, Andrea <b>Ertl</b>, Tina-Maria <b>Resch</b>, Marion <b>Maranitsch</b> und Cornelia <b>Schröder</b> bildeten unsere erste Damenmannschaft, welche kurz darauf mit Jennifer <b>Hofbauer</b> komplettiert wurde, und im September 1996 in die Meisterschaft einstieg. Und wie bei den Burschen war es auch bei den Mädchen - die „Beste“ war jedes Jahr weg - Oberliga!!</p>
+	</div>
+	<button class="card">
+	  <h3>Kapitel Drei: Fusion mit dem BSC Wien </h3>
+	  <h4>von Fritz Schröder (1999-2001)</h4>
+	</button>
+	<div class="card-content">
+	  <p> 1999 lernte ich dann den BSC Wien-Spieler Wolfgang Lohschmid kennen, der damals zum österreichischen Jugendleiter bestellt wurde. Im Februar 2001 gebaren wir bei einem Jugendlehrgang in Linz die Idee, mit einem Großteil der damaligen Kaderspieler des österreichischen Jugendnationalteams eine Mannschaft zu bilden und diese in der 1. Klasse zum Einsatz zu bringen.</p>
+	  <p>Die erste Mannschaft des BSC Wien war damals in der Wiener Liga auf Abstiegskurs und war davor, sich nach Saisonende aufzulösen. Wir begannen daher die Fusionierung des BSC Wien und des BC Phönix vorzubereiten. Im Mai 2001 war dann alles perfekt: Der <b>BSC Phönix Wien</b> wurde aus „der Asche“ gehoben.</p>
+	  <p> Unter dem Beinamen „</b>Vienna Youngsters</b>“ spielten unsere Burschen in der 1. Klasse Herren mit: Dominic <b>Litzka</b>, Leopold <b>Grundschober</b>, Michael <b>Loos</b>, Dennis <b>Hofbauer</b>, Alexander <b>El Badramani</b>, Raphael <b>Rulz</b>, Mario <b>Baumgartner</b> und Georg <b>Hochmeister</b>. Die erste Mannschaft, die rein nur aus Jugendlichen bestand.</p>
+	  <p>Bei den Mädchen bildeten Carina <b>Reitgruber</b>, Jennifer <b>Hofbauer</b>, Sandra <b>Tergowitsch</b>, Martina <b>Schiffer</b>, Alexandra <b>Plöchl</b> und Petra <b>Grundschober</b> unsere jugendliche Damenmannschaften. Unterstützt von den noch zwei verbliebenen reiferen Mädchen.</p>
+	</div>
+	<button class="card">
+	  <h3>Weitere Kapitel folgen</h3>
+	  <h4>von Erwin Simané</h4>
+	</button>
+	<div class="card-content">
+	
+	</div>
+<!-- End of specific content-->
+<!-- Closing divs -->
+</div>
+</div>
+	<script>
+	var cardvar = document.getElementsByClassName("card");
+	var i;
+
+	for (i = 0; i < cardvar.length; i++) {
+	  cardvar[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.maxHeight){
+		  content.style.maxHeight = null;
+		} else {
+		  content.style.maxHeight = (content.scrollHeight+10) + "px";
+		} 
+	  });
+	}
+	</script>
+<footer>
+	<p>&copy;  My Site. All rights reserved.</p>
+</footer>
+</body>
+</html>
