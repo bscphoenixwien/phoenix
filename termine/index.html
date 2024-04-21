@@ -104,61 +104,6 @@
 	<div class="stat2">
 	  <button type="button" class="filter-button active" data-filter="" style="display:none">Alle</button>
 	</div>
-
-
-	<div class="schedule-container">
-	<div class="schedule-grid">
-	  <div class="schedule-item">
-		<h2>Place1</h2>
-		<input type="checkbox" id="entry1" />
-		<label for="entry1">Option A</label>
-		<input type="checkbox" id="entry2" />
-		<label for="entry2">Option B</label>
-		<input type="checkbox" id="entry3" />
-		<label for="entry3">Option C</label>
-	  </div>
-	  <div class="schedule-item">
-		<h2>Title1</h2>
-		<input type="checkbox" id="entry4" />
-		<label for="entry4">Entry 4</label>
-		<input type="checkbox" id="entry5" />
-		<label for="entry5">Entry 5</label>
-		<input type="checkbox" id="entry6" />
-		<label for="entry6">Entry 6</label>
-		<input type="checkbox" id="entry7" />
-		<label for="entry7">Entry 7</label>
-		<input type="checkbox" id="entry8" />
-		<label for="entry8">Entry 8</label>
-		<input type="checkbox" id="entry9" />
-		<label for="entry9">Entry 9</label>
-	  </div>
-	  <div class="schedule-item">
-		<h2>Place2</h2>
-		<input type="checkbox" id="entry10" />
-		<label for="entry10">Option A</label>
-		<input type="checkbox" id="entry11" />
-		<label for="entry11">Option B</label>
-		<input type="checkbox" id="entry12" />
-		<label for="entry12">Option C</label>
-	  </div>
-	  <div class="schedule-item">
-		<h2>Title2</h2>
-		<input type="checkbox" id="entry13" />
-		<label for="entry13">Entry 7</label>
-		<input type="checkbox" id="entry14" />
-		<label for="entry14">Entry 8</label>
-		<input type="checkbox" id="entry15" />
-		<label for="entry15">Entry 9</label>
-		<input type="checkbox" id="entry16" />
-		<label for="entry16">Entry 10</label>
-		<input type="checkbox" id="entry17" />
-		<label for="entry17">Entry 11</label>
-		<input type="checkbox" id="entry18" />
-		<label for="entry18">Entry 12</label>
-	  </div>
-	</div>
-	</div>
-
 	<table class="stats-table">
 	  <thead>
 		<tr>
@@ -223,7 +168,7 @@
 	  // Function to fetch and populate the table with data
 	  async function fetchDataAndPopulateTable() {
 		try {
-		  const response = await fetch('/assets/Termine.json');
+		  const response = await fetch('/phoenix/assets/Termine.json');
 		  data = await response.json();
 		  applyFilters();
 		} catch (error) {
