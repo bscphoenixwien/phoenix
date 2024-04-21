@@ -190,7 +190,7 @@
 	  // Function to fetch and populate the table with data
 	  async function fetchDataAndPopulateTable() {
 		try {
-		  const response = await fetch('/assets/Tabellen.json');
+		  const response = await fetch('/phoenix/assets/Tabellen.json');
 		  data = await response.json();
 		  applyFilters();
 		} catch (error) {
